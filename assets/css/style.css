@@ -28,24 +28,20 @@ body {
   text-align: center;
 }
 
-.container {
-  padding: 0;
+.container {;
   max-width: 960px;
 }
 
 .navbar {
-  padding: 0 15px 0 0;
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
 }
 
-nav a {
-  color: #999999;
+.nav-link {
+  text-align: center;
   text-decoration: none;
-  display: inline-block;
   margin-left: 15px;
   padding-left: 15px;
-  border-left: 1px solid #efefef;
   line-height: 18px;
 }
 
@@ -65,9 +61,27 @@ nav a {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.jumbotron{
+  background-color:#fff !important;
+}
+
 img {
-    width: 200px;
-    height: auto;
-    margin: 10px 25px 0 0;
-    float: left;
+  width: 200px;
+  height: auto;
+}
+
+h1, h2 {
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 49px;
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 22px;
 }
