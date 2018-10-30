@@ -5,7 +5,7 @@ html {
 
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 102px;
+  margin-bottom: 142px;
   padding-top: 130px;
   font-size: 18px;
   line-height: 34px;
@@ -62,12 +62,16 @@ body {
 
 #my-pic {
   width: 200px;
-  height: 200px;
+  opacity: 1;
 }
 
-.portfolio {
-  width: 274px;
-  height: auto;
+@media screen and (max-width: 640px) {
+  #my-pic {
+    width: 100%;
+  }
+}
+
+.img-fluid {
   opacity: .8;
 }
 
